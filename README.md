@@ -14,7 +14,7 @@ A methods collection of using NSWindow native methods in Node.js. Currently, onl
 
   NSWindow.SetLevel(win.getNativeWindowHandle(), NSWindow.GetKCGDesktopWindowLevel());
 ```
-Please refer to the example.
+Please refer to the [example](https://github.com/lowfront/nswindow-napi/tree/master/example).
 
 ## Methods
 ```ts
