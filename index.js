@@ -1,3 +1,9 @@
-const AppKit = require('bindings')('AppkitNAPI')
+let AppKit;
+try {
+  AppKit = require('bindings')('AppkitNAPI')
+} catch (err) {
+  console.error(err);
+  AppKit = {};
+}
 
 module.exports = AppKit;

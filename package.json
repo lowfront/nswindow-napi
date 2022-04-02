@@ -1,6 +1,6 @@
 {
   "name": "nswindow-napi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A methods collection of using NSWindow native methods in Node.js.",
   "main": "index.js",
   "scripts": {
