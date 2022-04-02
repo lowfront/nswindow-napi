@@ -1,9 +1,10 @@
 {
   "name": "nswindow-napi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A methods collection of using NSWindow native methods in Node.js.",
   "main": "index.js",
   "scripts": {
+    "install": "node install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
