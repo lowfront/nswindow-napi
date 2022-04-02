@@ -1,0 +1,30 @@
+{
+  "name": "nswindow-napi",
+  "version": "0.0.1",
+  "description": "A methods collection of using NSWindow native methods in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mac",
+    "osx",
+    "nswindow",
+    "electron",
+    "appkit",
+    "objectivec"
+  ],
+  "author": {
+    "name": "lowfront",
+    "email": "lowfronterior@gmail.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/lowfront/nswindow-napi",
+  "bugs": {
+    "url": "https://github.com/lowfront/nswindow-napi/issues"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "bindings": "1.5.0"
+  }
+}

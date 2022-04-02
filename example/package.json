@@ -1,0 +1,10 @@
+{
+  "name": "NSWindow-NAPI-example",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "11.1.1"
+  }
+}

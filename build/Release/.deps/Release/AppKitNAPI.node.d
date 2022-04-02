@@ -1,0 +1,1 @@
+cmd_Release/AppKitNAPI.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=10.13 -arch arm64 -L./Release -stdlib=libc++  -o Release/AppKitNAPI.node Release/obj.target/AppKitNAPI/AppKitNAPI.o Release/obj.target/AppKitNAPI/NSWindow.o 
