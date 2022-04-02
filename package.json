@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "install": "node install",
+    "napi-build": "node-gyp rebuild",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
